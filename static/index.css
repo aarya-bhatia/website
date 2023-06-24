@@ -1,36 +1,8 @@
-h1,h2,h3,h4,h5,h6 {
-  font-family: 'Noto Serif';
-}
-
-.project {
-  font-family: 'Source Code Pro';
-  /* color: '#F3DEBA'; */
-  color: '675D50'
-}
-
-/*
-#F8EDE3
-#DFD3C3
-#D0B8A8
-#85586F
-*/
-
 body {
-  background-color: #F8EDE3;
-  color: #400D51;
+  font-family: 'Source Code Pro', monospace;
 }
 
-.text-1 {
-  color: #F8F988;
-}
-
-.project {
-  background-color: #85586F;
-  color: #F8EDE3;
-  padding: 10px 10px;
-}
-
-.project .title {
-  font-weight: bold;
-  font-size: 150%
-}
+/* h1,h2,h3,h4,h5,h6 { */
+/*   font-family: 'Noto Serif'; */
+/* } */
+/**/

@@ -1,8 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+  --color-pale-blue-lily: #cfecec;
+  --color-red-gold: #eb5406;
+  --color-night: #0c090a;
+  --color-bright-teal: #01F9C6;
+}
+
 body {
+  background-color: var(--color-night);
+  color: var(--color-pale-blue-lily);
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Open Sans', sans-serif;
+  color: var(--color-red-gold);
+}
+
+h1 {
+  color: var(--color-bright-teal);
+  font-size: 3rem;
+}
+
+h4 {
+  letter-spacing: 0.05em;
+  color: var(--color-red-gold);
+}
+
+a {
+  color: var(--color-bright-teal);
+}
+
+#main {
   font-family: 'Source Code Pro', monospace;
 }
 
-/* h1,h2,h3,h4,h5,h6 { */
-/*   font-family: 'Noto Serif'; */
-/* } */
-/**/
+#social {
+  font-size: 1.2rem;
+}
+
+#social a {
+  text-decoration: none;
+  color: gray;
+}
+
+#social a:hover {
+  color: var(--color-bright-teal);
+}

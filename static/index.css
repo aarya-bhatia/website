@@ -4,6 +4,7 @@
   --color-pale-blue-lily: #cfecec;
   --color-red-gold: #eb5406;
   --color-night: #0c090a;
+  --color-dark-slate: #2B3856;
   --color-bright-teal: #01F9C6;
 }
 
@@ -35,11 +36,16 @@ a {
   font-family: 'Source Code Pro', monospace;
 }
 
-#social {
-  font-size: 1.2rem;
+#nav a {
+  text-decoration: none;
+}
+
+#nav a:hover {
+  color: white;
 }
 
 #social a {
+  font-size: 1.2rem;
   text-decoration: none;
   color: gray;
 }

@@ -1,16 +1,17 @@
 import flask
 
+HOSTNAME="aaryab.in"
 app = flask.Flask(__name__)
 
 @app.route("/", methods=["GET"])
 def GET_index():
-    print(flask.request.headers)
-    return flask.render_template("index.html", params={ "title": "Aarya Bhatia" })
+    if "X-Forwarded-Host" in flask.request.headers:
+        host = flask.request.headers["X-Forwarded-Host"]
+        if "test." + HOSTNAME in host:
+            return flask.jsonify(flask.request.headers)
 
-@app.route("/<path>")
-def all_routes(path):
-    print(path)
-    return "", 404
+    return flask.render_template("index.html", params={ "title": "Aarya Bhatia" })
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080, debug=True)
+

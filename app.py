@@ -8,7 +8,7 @@ def GET_index():
     if "X-Forwarded-Host" in flask.request.headers:
         host = flask.request.headers["X-Forwarded-Host"]
         if "test." + HOSTNAME in host:
-            return flask.jsonify(flask.request.headers)
+            return host, 200
 
     return flask.render_template("index.html", params={ "title": "Aarya Bhatia" })
 

@@ -20,7 +20,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-  /* color: var(--color-bright-teal); */
   color: var(--color-pale-blue-lily);
   font-size: 3rem;
 }
@@ -32,14 +31,6 @@ h4 {
 
 a {
   color: var(--color-bright-teal);
-}
-
-#nav a {
-  text-decoration: none;
-}
-
-#nav a:hover {
-  color: white;
 }
 
 #social a {

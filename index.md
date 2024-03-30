@@ -14,7 +14,7 @@ graduate in 2024 and work full-time as a software developer engineer.
 I am experienced in full-stack web development and systems programming. I am
 proficient in Linux and C/C++, Python, Go, JavaScript and SQL. I have worked
 with several frameworks including Express and Flask. I love problem-solving and
-being the most efficient version of myself. I am also enjoy exploring new tools
+being the most efficient version of myself. I also enjoy exploring new tools
 and hacking my workflow using bspwm, vim and tmux.
 
 ## Work Experience

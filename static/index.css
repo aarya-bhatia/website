@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+  background: black;
+  color: white;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
+
+  font-family: "Source Code Pro", monospace;
+  font-weight: 350;
+}
+
+h1 {
+  color: red;
+}
+
+h2,
+h3,
+h2,
+h5,
+h6 {
+  color: green;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+a {
+  color: red;
+}
+
+a:hover {
+  color: brown;
+}

@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
 body {
-  background: black;
-  color: white;
+  background-color: #121212; /* Very dark gray */
+  color: #E0E0E0;           /* Light gray */
+
   max-width: 800px;
   margin: auto;
   padding: 20px;
@@ -12,37 +13,54 @@ body {
   font-weight: 350;
 }
 
+/* Headings */
 h1 {
-  color: red;
+    color: #BB86FC;           /* Soft purple */
 }
 
-h2,
-h3,
-h2,
-h5,
-h6 {
-  color: green;
+h2, h3, h4, h5, h6 {
+    color: #E0E0E0;           /* Light gray */
 }
 
-footer {
+/* Paragraph */
+p, footer a {
+    color: #E0E0E0;           /* Light gray */
+}
+
+.social {
   display: flex;
   justify-content: center;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-
-footer a {
-  color: white;
+.social a {
   text-decoration: none;
   font-size: 1.2rem;
   padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Shadow for the nav */
 }
 
+/* Links */
 a {
-  color: red;
+    color: #03DAC6;           /* Cyan */
+    text-decoration: none;    /* Remove underline for a cleaner look */
 }
 
 a:hover {
-  color: brown;
+    color: #BB86FC;           /* Soft purple */
 }
+
+.image-container {
+    width: 100%;
+    max-width: 400px; /* Example max width */
+    border: 1px solid #ccc;
+    overflow: hidden; /* Ensures no overflow */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block; /* Removes bottom space caused by inline-block images */
+}
+

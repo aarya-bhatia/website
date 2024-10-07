@@ -11,20 +11,8 @@ body {
 
   font-family: "Source Code Pro", monospace;
   font-weight: 350;
-}
 
-/* Headings */
-h1 {
-    color: #BB86FC;           /* Soft purple */
-}
-
-h2, h3, h4, h5, h6 {
-    color: #E0E0E0;           /* Light gray */
-}
-
-/* Paragraph */
-p, footer a {
-    color: #E0E0E0;           /* Light gray */
+  color: #E0E0E0;           /* Light gray */
 }
 
 .social {
